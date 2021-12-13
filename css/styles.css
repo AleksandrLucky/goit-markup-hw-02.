@@ -67,3 +67,14 @@ ul {
   color: var(--hero-title-color);
   background-color: var(--accent-color);
 }
+
+/* portfolio */
+
+.buttons-primary {
+  color: var(--primary-tetx-color);
+}
+.buttons-primary:hover,
+.buttons-primary:focus {
+  color: var(--hero-title-color);
+  background-color: var(--accent-color);
+}
