@@ -30,6 +30,15 @@ body {
 .logow {
   color: var(--accent-color);
 }
+.logo-footer {
+  color: var(--hero-title-color);
+  font-family: Raleway;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+}
 ul {
   list-style: none;
 }
@@ -49,6 +58,7 @@ ul {
 }
 .site-nav .link.current {
   color: var(--primary-tetx-color);
+  text-decoration: none;
 }
 
 /* hero */
@@ -110,6 +120,52 @@ ul {
 .button {
   color: var(--hero-title-color);
   background-color: var(--accent-color);
+}
+
+/* footer */
+
+.footer {
+  background-color: var(--hero-background);
+}
+
+.logo-footer {
+  color: var(--hero-title-color);
+  font-family: Raleway;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+}
+
+.footer-address {
+  text-decoration: none;
+}
+.footer-address-list {
+  text-decoration: none;
+}
+.footer-address {
+  color: var(--hero-title-color);
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+}
+
+.footer-mail {
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+}
+
+.footer-tel {
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  text-decoration: none;
 }
 
 /* portfolio */
