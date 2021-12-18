@@ -7,7 +7,7 @@
 }
 
 body {
-  background-color: #ffffff;
+  background-color: var(--hero-title-color);
   color: var(--primary-tetx-color);
   font-family: Roboto, sans-serif;
 }
@@ -21,10 +21,36 @@ body {
 
 /* header */
 
+.link-mail {
+  color: var(--title-tetx-color);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+
+.link-tel {
+  color: var(--title-tetx-color);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+
+.link-mail:hover,
+:focus {
+  color: var(--accent-color);
+}
+.link-tel:hover {
+  color: var(--accent-color);
+}
+
 .logo {
   color: var(--primary-tetx-color);
   font-family: Raleway, cursive;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
   text-decoration: none;
@@ -35,7 +61,7 @@ body {
 .logo-footer {
   color: var(--hero-title-color);
   font-family: Raleway;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
@@ -52,6 +78,7 @@ ul {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.6;
+  letter-spacing: 0.02em;
   text-decoration: none;
 }
 .site-nav .link:hover,
@@ -82,7 +109,7 @@ ul {
 /* section */
 
 .section-title {
-  font-weight: bold;
+  font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
   text-align: center;
@@ -91,7 +118,7 @@ ul {
 
 .title {
   color: var(--primary-tetx-color);
-  font-weight: bold;
+  font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
@@ -99,11 +126,12 @@ ul {
 }
 
 .title {
-  font-weight: bold;
+  font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  letter-spacing: 0.03em;
 }
 
 /* наша команда */
@@ -149,7 +177,7 @@ ul {
 .logo-footer {
   color: var(--hero-title-color);
   font-family: Raleway;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
@@ -194,7 +222,7 @@ button {
 }
 .buttons-primary {
   color: var(--primary-tetx-color);
-  background: #f5f4fa;
+  background-color: var(--hero-title-color);
   font-weight: 500;
   font-size: 16px;
   line-height: 1, 6;
@@ -205,4 +233,19 @@ button {
 .buttons-primary:focus {
   color: var(--hero-title-color);
   background-color: var(--accent-color);
+  cursor: pointer;
+}
+
+.title {
+  color: var(--primary-tetx-color);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+.text {
+  color: var(--title-tetx-color);
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
 }
