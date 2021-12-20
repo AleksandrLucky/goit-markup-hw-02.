@@ -21,29 +21,21 @@ body {
 
 /* header */
 
-.link-mail {
+.contacs-link {
   color: var(--title-tetx-color);
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
+  text-decoration: none;
 }
 
-.link-tel {
-  color: var(--title-tetx-color);
-  font-style: normal;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.02em;
-}
-
-.link-mail:hover,
+.contacs-link:hover,
 :focus {
   color: var(--accent-color);
 }
-.link-tel:hover {
+.contacs-link:hover {
   color: var(--accent-color);
 }
 
@@ -76,7 +68,7 @@ ul {
 .site-nav .link {
   color: var(--primary-tetx-color);
   font-weight: 500;
-  font-size: 16px;
+  font-size: 14px;
   line-height: 1.6;
   letter-spacing: 0.02em;
   text-decoration: none;
@@ -122,50 +114,48 @@ ul {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
-  text-transform: uppercase;
-}
-
-.title {
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  letter-spacing: 0.03em;
 }
 
 /* наша команда */
 
-.name {
+.tim-title {
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.18;
-  text-align: center;
+  /* text-align: center; */
   letter-spacing: 0.03em;
 }
 
-.title-paragraph {
+.tim-text {
   color: var(--title-tetx-color);
+  font-family: Roboto;
   font-size: 16px;
-  line-height: 1.71;
-  font-style: normal;
-  font-weight: normal;
-  text-align: center;
+  line-height: 1.18;
+  /* text-align: center; */
   letter-spacing: 0.03em;
 }
 
-/* feature */
+.feature-title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+}
 
-/* .feature-list .title {
-  color: var(--primary-tetx-color);
-} */
+.feature-text {
+  color: var(--title-tetx-color);
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
 
 /* button */
 
 .button {
   color: var(--hero-title-color);
   background-color: var(--accent-color);
+  cursor: pointer;
 }
 
 /* footer */
@@ -236,14 +226,14 @@ button {
   cursor: pointer;
 }
 
-.title {
+.portfolio-title {
   color: var(--primary-tetx-color);
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
 }
-.text {
+.portfolio-text {
   color: var(--title-tetx-color);
   font-size: 16px;
   line-height: 1.87;
